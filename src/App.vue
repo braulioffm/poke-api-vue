@@ -122,6 +122,7 @@ export default {
       <div class="pokedex-controls flex">
         <div class="w-full">
           <!-- Pokemon search input -->
+          <div>Introduzca el ID o nombre del Pokemon</div>
           <input @keyup.enter="search" type="text" class="w-full mb-3 text-black" placeholder="Search Pokemon" v-model="searchTerm" :disabled="!enableSearch"/>
 
           <div class="pokemon-info p-2 border border-solid border-black  bg-green-700">
